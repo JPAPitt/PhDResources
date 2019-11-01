@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: DryBed.aux
+The style file: unsrtnat.bst
+Database file #1: DryBed.bib
+You've used 19 entries,
+            2481 wiz_defined-function locations,
+            692 strings with 8297 characters,
+and the built_in function-call counts, 7267 in all, are:
+= -- 600
+> -- 361
+< -- 7
++ -- 142
+- -- 104
+* -- 599
+:= -- 1176
+add.period$ -- 57
+call.type$ -- 19
+change.case$ -- 38
+chr.to.int$ -- 19
+cite$ -- 19
+duplicate$ -- 357
+empty$ -- 685
+format.name$ -- 129
+if$ -- 1546
+int.to.chr$ -- 1
+int.to.str$ -- 20
+missing$ -- 19
+newline$ -- 103
+num.names$ -- 57
+pop$ -- 135
+preamble$ -- 1
+purify$ -- 19
+quote$ -- 0
+skip$ -- 198
+stack$ -- 0
+substring$ -- 377
+swap$ -- 38
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 130
+warning$ -- 0
+while$ -- 55
+width$ -- 0
+write$ -- 256
