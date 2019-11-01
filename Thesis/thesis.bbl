@@ -1,0 +1,467 @@
+\begin{thebibliography}{71}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Euler(1757)]{Euler-1755-274}
+L.~Euler.
+\newblock Principes generaux du mouvement des fluides.
+\newblock \emph{M{\'e}moires de l'acad{\'e}mie des sciences de Berlin},
+  11:\penalty0 274--315, 1757.
+
+\bibitem[Navier(1823)]{navier1823}
+C.L.M.H. Navier.
+\newblock M{\'e}moire sur les lois du mouvement des fluides.
+\newblock \emph{M{\'e}moires de l'Acad{\'e}mie Royale des Sciences de
+  l'Institut de France}, 6:\penalty0 389--440, 1823.
+
+\bibitem[Stokes(1845)]{stokes1845gg}
+G.G. Stokes.
+\newblock \emph{Transactions of the Cambridge Philosophical Society},
+  8:\penalty0 287, 1845.
+
+\bibitem[Chorin(1967)]{Chorin-1967-928}
+A.J. Chorin.
+\newblock The numerical solution of the {N}avier-{S}tokes equations for an
+  incompressible fluid.
+\newblock \emph{Bulletin of the American Mathematical Society}, 73\penalty0
+  (6):\penalty0 928--931, 1967.
+
+\bibitem[Taylor and Hood(1973)]{Taylor-Hood-1973-73}
+C.~Taylor and P.~Hood.
+\newblock Numerical solution of the {N}avier-{S}tokes equations using the
+  finite element technique.
+\newblock \emph{Computers \& Fluids}, 1:\penalty0 73--100, 1973.
+
+\bibitem[Bassi and Rebay(1997)]{Bassi-1997-267}
+F.~Bassi and S.~Rebay.
+\newblock A high-order accurate discontinuous finite element method for the
+  numerical solution of the compressible {N}avier-{S}tokes equations.
+\newblock \emph{Journal of Computational Physics}, 131\penalty0 (2):\penalty0
+  267--279, 1997.
+
+\bibitem[Lannes and Bonneton(2009)]{Bonneton-Lannes-2009-16601}
+D.~Lannes and P.~Bonneton.
+\newblock Derivation of asymptotic two-dimensional time-dependent equations for
+  surface water wave propagation.
+\newblock \emph{Physics of Fluids}, 21\penalty0 (1):\penalty0 16601, 2009.
+
+\bibitem[Wang(2009)]{Comcot}
+X.~Wang.
+\newblock Comcot, 2009.
+\newblock URL \url{http://223.4.213.26/archive/tsunami/cornell/comcot.htm}.
+
+\bibitem[Team(2018)]{ClawPack}
+The Clawpack~Development Team.
+\newblock Clawpack documentation, 2018.
+\newblock URL \url{http://www.clawpack.org/}.
+
+\bibitem[Roberts(2018)]{ANUGA}
+S.G. Roberts.
+\newblock {ANUGA}, 2018.
+\newblock URL \url{https://anuga.anu.edu.au/}.
+
+\bibitem[Eskilsson and Sherwin(2004)]{Eskilsson}
+C.~Eskilsson and S.~J. Sherwin.
+\newblock A triangular spectral/hp discontinuous galerkin method for modelling
+  2d shallow water equations.
+\newblock \emph{International Journal for Numerical Methods in Fluids},
+  45\penalty0 (6):\penalty0 605--623, 2004.
+
+\bibitem[Grue et~al.(2008)Grue, Pelinovsky, Fructus, Talipova, and
+  Kharif]{Grue-etal-2008-113}
+J.~Grue, E.N. Pelinovsky, D.~Fructus, T.~Talipova, and C.~Kharif.
+\newblock Formation of undular bores and solitary waves in the strait of
+  {M}alacca caused by the 26 {D}ecember 2004 {I}ndian {O}cean tsunami.
+\newblock \emph{Journal of Geophysical Research: Oceans}, 113\penalty0
+  (C5):\penalty0 008, 2008.
+
+\bibitem[Kirby et~al.(2013)Kirby, Shi, Tehranirad, Harris, and
+  Grilli]{Kirby-etal-2013-39}
+J.T. Kirby, F.~Shi, B.~Tehranirad, J.C. Harris, and S.T. Grilli.
+\newblock Dispersive tsunami waves in the ocean: Model equations and
+  sensitivity to dispersion and coriolis effects.
+\newblock \emph{Ocean Modelling}, 62:\penalty0 39--55, 2013.
+
+\bibitem[Zoppou(2014)]{Zoppou-2014}
+C.~Zoppou.
+\newblock \emph{Numerical Solution of the {O}ne-dimensional and {C}ylindrical
+  {S}erre {E}quations for {R}apidly {V}arying {F}ree {S}urface {F}lows}.
+\newblock PhD thesis, Australian National University, Mathematical Sciences
+  Institute, College of Physical and Mathematical Sciences, Australian National
+  University, Canberra, ACT 2600, Australia, 2014.
+
+\bibitem[Zoppou et~al.(2017)Zoppou, Pitt, and Roberts]{Zoppou-etal-2017}
+C.~Zoppou, J.~Pitt, and S.~Roberts.
+\newblock Numerical solution of the fully non-linear weakly dispersive {S}erre
+  equations for steep gradient flows.
+\newblock \emph{Applied Mathematical Modelling}, 48:\penalty0 70--95, 2017.
+
+\bibitem[Hammack and Segur(1978)]{Hammack-Segur-1978-337}
+J.L. Hammack and H.~Segur.
+\newblock The {K}orteweg-de {V}ries equation and water waves. {P}art 3.
+  {O}scillatory waves.
+\newblock \emph{Journal of Fluid Mechanics}, 84\penalty0 (2):\penalty0
+  337--358, 1978.
+
+\bibitem[Beji and Battjes(1994)]{Beji-Battjes-1994-1}
+S.~Beji and J.A. Battjes.
+\newblock Numerical simulation of nonlinear wave propagation over a bar.
+\newblock \emph{Coastal Engineering}, 23\penalty0 (1):\penalty0 1--16, 1994.
+
+\bibitem[Pitt et~al.(2018)Pitt, Zoppou, and Roberts]{Pitt-2018-61}
+J.P.A. Pitt, C.~Zoppou, and S.G. Roberts.
+\newblock Behaviour of the {S}erre equations in the presence of steep gradients
+  revisited.
+\newblock \emph{Wave Motion}, 76\penalty0 (1):\penalty0 61--77, 2018.
+
+\bibitem[Sorensen(2006)]{Sorenson-2006}
+R.M. Sorensen.
+\newblock \emph{Basic coastal engineering}.
+\newblock New York, NY Springer, 3rd edition, 2006.
+
+\bibitem[Serre(1953)]{Serre-F-1953-857}
+F.~Serre.
+\newblock Contribtion \`{a} l'\'{e}tude des \'{e}coulements permanents et
+  variables dans les canaux.
+\newblock \emph{La Houille Blanche}, 6:\penalty0 830--872, 1953.
+
+\bibitem[Su and Gardner(1969)]{Su-Gardener-1969-536}
+C.H. Su and C.S. Gardner.
+\newblock {K}orteweg-de {V}ries equation and generalisations. {III}.
+  {D}erivation of the {K}orteweg-de {V}ries equation and {B}urgers equation.
+\newblock \emph{Journal of Mathematical Physics}, 10\penalty0 (3):\penalty0
+  536--539, 1969.
+
+\bibitem[Green and Naghdi(1976)]{Green-Naghdi-1976-237}
+A.E. Green and P.M. Naghdi.
+\newblock A derivation of equations for wave propagation in water of variable
+  depth.
+\newblock \emph{Journal of Fluid Mechanics}, 78\penalty0 (2):\penalty0
+  237--246, 1976.
+
+\bibitem[Seabra-Santos et~al.(1981)Seabra-Santos, Renouard, and
+  Temperville]{Seabra-Santos-etal-1987-117}
+F.J. Seabra-Santos, D.P. Renouard, and A.M. Temperville.
+\newblock Numerical and experimental study of the transformation of a solitary
+  wave over a shelf or isolated obstacle.
+\newblock \emph{Journal of Fluid Mechanics}, 176:\penalty0 117--134, 1981.
+
+\bibitem[Barth{\'e}lemy(2004)]{Barthelemy-2004-315}
+E.~Barth{\'e}lemy.
+\newblock Nonlinear shallow water theories for coastal waves.
+\newblock \emph{Surveys in Geophysics}, 25\penalty0 (3):\penalty0 315--337,
+  2004.
+
+\bibitem[Bonneton et~al.(2011)Bonneton, Chazel, Lannes, Marche, and
+  Tissier]{Bonneton-etal-2011-1479}
+P.~Bonneton, F.~Chazel, D.~Lannes, F.~Marche, and M.~Tissier.
+\newblock A splitting approach for the fully nonlinear and weakly dispersive
+  {G}reen-{N}aghdi model.
+\newblock \emph{Journal of Computational Physics}, 230\penalty0 (4):\penalty0
+  1479--1498, 2011.
+
+\bibitem[Liggett(1994)]{Liggett-1994}
+J.A. Liggett.
+\newblock \emph{Fluid Mechanics}.
+\newblock McGraw-Hill civil engineering series. McGraw-Hill Inc., New York,
+  1994.
+
+\bibitem[Le~M\'{e}tayer et~al.(2010)Le~M\'{e}tayer, Gavrilyuk, and
+  Hank]{Hank-etal-2010-2034}
+O.~Le~M\'{e}tayer, S.~Gavrilyuk, and S.~Hank.
+\newblock A numerical scheme for the {G}reen-{N}aghdi model.
+\newblock \emph{Journal of Computational Physics}, 229\penalty0 (6):\penalty0
+  2034--2045, 2010.
+
+\bibitem[Li et~al.(2014)Li, Guyenne, Li, and Xu]{Li-2014-169}
+M.~Li, P.~Guyenne, F.~Li, and L.~Xu.
+\newblock High order well-balanced {C}{D}{G}-{F}{E} methods for shallow water
+  waves by a {G}reen-{N}aghdi model.
+\newblock \emph{Journal of Computational Physics}, 257\penalty0 (1):\penalty0
+  169--192, 2014.
+
+\bibitem[Choi and Camassa(1999)]{Choi-Camassa-1999-1}
+W.~Choi and R.~Camassa.
+\newblock Fully nonlinear internal waves in a two-fluid system.
+\newblock \emph{Journal of Fluid Mechanics}, 396:\penalty0 1--36, 1999.
+
+\bibitem[Carter and Cienfuegos(2011)]{Carter-Cienfuegos-2011-259}
+J.D. Carter and R.~Cienfuegos.
+\newblock The kinematics and stability of solitary and cnoidal wave solutions
+  of the {S}erre equations.
+\newblock \emph{European Journal of Mechanics-B/Fluids}, 30\penalty0
+  (3):\penalty0 259--268, 2011.
+
+\bibitem[Li(2002)]{Li-Y-2002}
+Y.A. Li.
+\newblock {H}amiltonian structure and linear stability of solitary waves of the
+  {G}reen-{N}aghdi equations.
+\newblock \emph{Journal of Nonlinear Mathematical Physics}, 9:\penalty0
+  99--105, 2002.
+
+\bibitem[El et~al.(2006)El, Grimshaw, and Smyth]{El-etal-2006}
+G.A. El, R.H.J. Grimshaw, and N.F. Smyth.
+\newblock Unsteady undular bores in fully nonlinear shallow-water theory.
+\newblock \emph{Physics of Fluids}, 18\penalty0 (2):\penalty0 027104, 2006.
+
+\bibitem[Dutykh et~al.(2013)Dutykh, Clamond, Milewski, and
+  Mitsotakis]{Dutykh-etal-2013-761}
+D.~Dutykh, D.~Clamond, P.~Milewski, and D.~Mitsotakis.
+\newblock Finite volume and pseudo-spectral schemes for the fully nonlinear
+  1{D} {S}erre equations.
+\newblock \emph{European Journal of Applied Mathematics}, 24\penalty0
+  (5):\penalty0 761--787, 2013.
+
+\bibitem[Mitsotakis et~al.(2014)Mitsotakis, Ilan, and
+  Dutykh]{Mitsotakis-etal-2014}
+D.~Mitsotakis, B.~Ilan, and D.~Dutykh.
+\newblock On the {G}alerkin/finite-element method for the {S}erre equations.
+\newblock \emph{Journal of Scientific Computing}, 61\penalty0 (1):\penalty0
+  166--195, 2014.
+
+\bibitem[Mitsotakis et~al.(2017)Mitsotakis, Dutykh, and
+  Carter]{Mitsotakis-etal-2017}
+D.~Mitsotakis, D.~Dutykh, and D.~Carter.
+\newblock On the nonlinear dynamics of the traveling-wave solutions of the
+  {S}erre system.
+\newblock \emph{Wave Motion}, 70\penalty0 (1):\penalty0 166--182, 2017.
+
+\bibitem[do~Carmo et~al.(2018)do~Carmo, Ferreira, Pinto, and
+  Romanazzi]{doCarmo-etal-2018-404}
+J.S.A. do~Carmo, J.A. Ferreira, L.~Pinto, and G.~Romanazzi.
+\newblock An improved {S}erre model: Efficient simulation and comparative
+  evaluation.
+\newblock \emph{Applied Mathematical Modelling}, 56:\penalty0 404--423, 2018.
+
+\bibitem[Dougalis et~al.(2007)Dougalis, Duran, Lopez-Marcos, and
+  Mitsotakis]{Dougalis-etal-2007}
+V.A. Dougalis, A.~Duran, M.A. Lopez-Marcos, and D.E. Mitsotakis.
+\newblock Numerical study of the stability of solitary waves of the
+  {B}ona--{S}mith family of {B}oussinesq systems.
+\newblock \emph{Journal of Nonlinear Science}, 17\penalty0 (6):\penalty0
+  569--607, 2007.
+
+\bibitem[Cienfuegos et~al.(2006)Cienfuegos, Barth{\'e}lemy, and
+  Bonneton]{Cienfuegos-etal-2006-1217}
+R.~Cienfuegos, E.~Barth{\'e}lemy, and P.~Bonneton.
+\newblock A fourth-order compact finite volume scheme for fully nonlinear and
+  weakly dispersive {B}oussinesq-type equations. {P}art {I}: {M}odel
+  development and analysis.
+\newblock \emph{International Journal for Numerical Methods in Fluids},
+  51\penalty0 (11):\penalty0 1217--1253, 2006.
+
+\bibitem[Bradford and Sanders(2002)]{Bradford-Sanders-2002-953}
+S.F. Bradford and B.F. Sanders.
+\newblock Finite volume schemes for the {B}oussinesq equations.
+\newblock In \emph{Ocean Wave Measurement and Analysis (2001)}, pages 953--962.
+  American Society of Civil Engineers, 2002.
+
+\bibitem[Filippini et~al.(2016)Filippini, Kazolea, and
+  Ricchiuto]{Filippini-etal-2016-381}
+A.~G. Filippini, M.~Kazolea, and M.~Ricchiuto.
+\newblock A flexible genuinely nonlinear approach for nonlinear wave
+  propagation, breaking and run-up.
+\newblock \emph{Journal of Computational Physics}, 310:\penalty0 381--417,
+  2016.
+
+\bibitem[Pitt(2014)]{Pitt-J-2014}
+J.~Pitt.
+\newblock \emph{A Second Order Well Balanced Hybrid Finite Volume and Finite
+  Difference Method for the {S}erre Equations}.
+\newblock {Honour's} thesis, Australian National University, Mathematical
+  Sciences Institute, College of Physical and Mathematical Sciences, Australian
+  National University, Canberra, ACT 2600, Australia, 2014.
+
+\bibitem[Prenter(1975)]{Preneter-1975}
+P.M. Prenter.
+\newblock \emph{Splines and Variational Methods}.
+\newblock A Wiley-Interscience publication. Wiley, New York, 1975.
+
+\bibitem[Atkinson(1989)]{atkinson-1978}
+K.E. Atkinson.
+\newblock \emph{An introduction to numerical analysis}.
+\newblock John Wiley {\&} Sons, Canada, 2nd edition, 1989.
+
+\bibitem[Roe(1986)]{Roe-1986-337}
+P.L. Roe.
+\newblock Characteristic-based schemes for the {E}uler equations.
+\newblock \emph{Annual Review of Fluid Mechanics}, 18\penalty0 (1):\penalty0
+  337--365, 1986.
+
+\bibitem[Leer(1977)]{VanLeer-1977-276}
+B.~Van Leer.
+\newblock Towards the ultimate conservative difference scheme. {I}{V}. {A} new
+  approach to numerical convection.
+\newblock \emph{Journal of Computational Physics}, 23\penalty0 (3):\penalty0
+  276--299, 1977.
+
+\bibitem[Harten(1983)]{Harten-1983-357}
+A.~Harten.
+\newblock High resolution schemes for hyperbolic conservation laws.
+\newblock \emph{Journal of Computational Physics}, 49\penalty0 (3):\penalty0
+  357--3935, 1983.
+
+\bibitem[Davis and Rabinowitz(1984)]{Davis-Rabinowitz-1984}
+P.J. Davis and P.~Rabinowitz.
+\newblock \emph{Methods of Numerical Integration}.
+\newblock Computer science and applied mathematics. Academic Press, London, 2nd
+  edition, 1984.
+
+\bibitem[Press et~al.(2002)Press, Teukolsky, Vetterling, and
+  Flannery]{NumRecC-1996}
+W.H. Press, S.A. Teukolsky, W.T. Vetterling, and B.P. Flannery.
+\newblock \emph{Numerical Recipes in C}.
+\newblock Cambridge University Press, London, 2nd edition, 2002.
+
+\bibitem[Kurganov et~al.(2002)Kurganov, Noelle, and
+  Petrova]{Kurganov-etal-2001-707}
+A.~Kurganov, S.~Noelle, and G.~Petrova.
+\newblock Semidiscrete central-upwind schemes for hyperbolic conservation laws
+  and {H}amilton-{J}acobi equations.
+\newblock \emph{Journal of Scientific Computing, Society for Industrial and
+  Applied Mathematics}, 23\penalty0 (3):\penalty0 707--740, 2002.
+
+\bibitem[Audusse et~al.(2004)Audusse, Bouchut, Bristeau, Klein, and
+  Perthame]{Klein-etal-2004-2050}
+E.~Audusse, F.~Bouchut, M.~Bristeau, R.~Klein, and B.~Perthame.
+\newblock A fast and stable well--balanced scheme with hydrostatic
+  reconstruction for shallow water flows.
+\newblock \emph{Journal of Scientific Computing, Society for Industrial and
+  Applied Mathematics}, 25\penalty0 (6):\penalty0 2050--2065, 2004.
+
+\bibitem[Gottlieb et~al.(2001)Gottlieb, Shu, and Tadmor]{Gottlieb-etal-2003-89}
+S.~Gottlieb, C.~Shu, and E.~Tadmor.
+\newblock Strong stability-preserving high-order time discretization methods.
+\newblock \emph{Review, Society for Industrial and Applied Mathematics},
+  43\penalty0 (1):\penalty0 89--112, 2001.
+
+\bibitem[Courant et~al.(1967)Courant, Friedrichs, and
+  Lewy]{Courant-etal-1967-215}
+R.~Courant, K.~Friedrichs, and H.~Lewy.
+\newblock On the partial difference equations of mathematical physics.
+\newblock \emph{IBM Journal of Research and Development}, 11\penalty0
+  (2):\penalty0 215--234, 1967.
+
+\bibitem[Gustafsson(1975)]{Gustafsson}
+B.~Gustafsson.
+\newblock The convergence rate for difference approximations to mixed initial
+  boundary value problems.
+\newblock \emph{Mathematics of Computation}, 29\penalty0 (130):\penalty0
+  396--406, 1975.
+
+\bibitem[Ricchiuto and Bollermann(2009)]{RICCHIUTO20091071}
+M.~Ricchiuto and A.~Bollermann.
+\newblock Stabilized residual distribution for shallow water simulations.
+\newblock \emph{Journal of Computational Physics}, 228\penalty0 (4):\penalty0
+  1071--1115, 2009.
+
+\bibitem[Kurganov and Petrova(2007)]{Kurganov-Petrova-2007-707}
+A.~Kurganov and G.~Petrova.
+\newblock A second-order well-balanced positivity preserving central-upwind
+  scheme for the {S}aint-{V}enant system.
+\newblock \emph{Communications in Mathematical Sciences}, 5\penalty0
+  (1):\penalty0 133--160, 2007.
+
+\bibitem[Conte and De~Boor(1980)]{Conte-DeBoor-1980}
+S.D. Conte and C.~De~Boor.
+\newblock \emph{Elementary numerical analysis: {A}n algorithmic approach}.
+\newblock International Series in Pure and Applied Mathematics. McGraw-Hill
+  Inc., New York, 3rd edition, 1980.
+
+\bibitem[Lax and Richtmyer(1956)]{Lax-Richtmyer-1956-267}
+P.~Lax and R.~Richtmyer.
+\newblock Survey of the stability of linear finite difference equations.
+\newblock \emph{Communications on Pure and Applied Mathematics}, 9\penalty0
+  (2):\penalty0 267--293, 1956.
+
+\bibitem[Koren(1993)]{Koren-93}
+B.~Koren.
+\newblock A robust upwind discretization method for advection, diffusion and
+  source term.
+\newblock In C.B. Vreugdenhil and B.~Koren, editors, \emph{Numerical Methods
+  for Advection-Diffusion Problems}, chapter~5, pages 117--138. Vieweg,
+  Braunschweig, 1993.
+
+\bibitem[Ippen and Kulin(1954)]{Ippen-Kulin-1954-4}
+A.T. Ippen and G.~Kulin.
+\newblock The shoaling and breaking of the solitary wave.
+\newblock \emph{Coastal Engineering Proceedings}, 1\penalty0 (5):\penalty0 4,
+  1954.
+
+\bibitem[Higham(1996)]{higham2002}
+N.J. Higham.
+\newblock \emph{Accuracy and Stability of Numerical Algorithms}.
+\newblock Society for Industrial and Applied Mathematics, Philadelphia, 1996.
+
+\bibitem[Beji and Battjes(1993)]{Beji-Battjes-1993-151}
+S.~Beji and J.A. Battjes.
+\newblock Experimental investigation of wave propagation over a bar.
+\newblock \emph{Coastal Engineering}, 19\penalty0 (1):\penalty0 151--162, 1993.
+
+\bibitem[Lannes(2013)]{Lannes-2013}
+D.~Lannes.
+\newblock \emph{The Water Waves Problem: Mathematical Analysis and
+  Asymptotics}, volume 188 of \emph{Mathematical Surveys and Monographs}.
+\newblock American Mathematical Society, Providence, 2013.
+
+\bibitem[Pitt et~al.(2017)Pitt, Zoppou, and Roberts]{Pitt-2017-1725}
+J.~Pitt, C.~Zoppou, and S.G Roberts.
+\newblock Importance of dispersion for shoaling waves.
+\newblock \emph{Modelling and Simulation Society of Australia and New Zealand},
+  22\penalty0 (1):\penalty0 1725--1730, 2017.
+
+\bibitem[Zhang et~al.(2013)Zhang, Kennedy, Panda, Dawson, and
+  Westerink]{Zhang-2013-13}
+Y.~Zhang, A.B. Kennedy, N.~Panda, C.~Dawson, and J.J. Westerink.
+\newblock {B}oussinesq-{G}reen-{N}aghdi rotational water wave theory.
+\newblock \emph{Coastal Engineering}, 73\penalty0 (1):\penalty0 13--27, 2013.
+
+\bibitem[Roeber(2010)]{Roeber-2010}
+V.~Roeber.
+\newblock \emph{{B}oussinesq-type mode for nearshore wave processes in fringing
+  reef environment}.
+\newblock PhD thesis, Department of Ocean and Resource Engineering, University
+  of Hawaii, Manoa, Honolulu, HI, U.S.A, 2010.
+
+\bibitem[Synolakis(1987)]{Synolakis-1987-523}
+C.E. Synolakis.
+\newblock The runup of solitary waves.
+\newblock \emph{Journal of Fluid Mechanics}, 185:\penalty0 523--545, 1987.
+
+\bibitem[Bollermann et~al.(2011)Bollermann, Noelle, and
+  Luk{\'a}{\v{c}}ov{\'a}-Medvid’ov{\'a}]{Bollermann-etal-2011-271}
+A.~Bollermann, S.~Noelle, and M.~Luk{\'a}{\v{c}}ov{\'a}-Medvid’ov{\'a}.
+\newblock Finite volume evolution {G}alerkin methods for the shallow water
+  equations with dry beds.
+\newblock \emph{Communications in Computational Physics}, 10\penalty0
+  (2):\penalty0 371--404, 2011.
+
+\bibitem[Tissier et~al.(2011)Tissier, Bonneton, Marche, Chazel, and
+  Lannes]{Tissier-2011}
+M.~Tissier, P.~Bonneton, F.~Marche, F.~Chazel, and D.~Lannes.
+\newblock {S}erre {G}reen-{N}aghdi modelling of wave transformation breaking
+  and run-up using a high-order finite-volume finite-difference scheme.
+\newblock \emph{Coastal Engineering Proceedings}, 1\penalty0 (32):\penalty0
+  1--13, 2011.
+
+\bibitem[do~Carmo et~al.(2019)do~Carmo, Ferreira, and Pinto]{DoCarmo-2019-125}
+J.S.A. do~Carmo, J.A. Ferreira, and L.~Pinto.
+\newblock On the accurate simulation of nearshore and dam break problems
+  involving dispersive breaking waves.
+\newblock \emph{Wave Motion}, 85:\penalty0 125 -- 143, 2019.
+
+\bibitem[Chow(2008)]{ChowVenTe}
+V.~T. Chow.
+\newblock \emph{Open-channel hydraulics}.
+\newblock Caldwell, New Jersey : Blackburn Press, 2008.
+
+\bibitem[LeVeque(2002)]{LeVeque-2002}
+R.J. LeVeque.
+\newblock \emph{Finite volume methods for hyperbolic problems}, volume~54 of
+  \emph{Cambridge Texts in Applied Mathematics}.
+\newblock Cambridge University Press, New York, 2002.
+
+\end{thebibliography}

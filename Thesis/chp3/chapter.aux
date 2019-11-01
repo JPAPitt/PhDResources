@@ -1,0 +1,131 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\citation{Cienfuegos-etal-2006-1217,El-etal-2006}
+\citation{Mitsotakis-etal-2014,Li-2014-169,Mitsotakis-etal-2017}
+\citation{Hank-etal-2010-2034,Zoppou-etal-2017}
+\citation{Bradford-Sanders-2002-953,Dutykh-etal-2013-761,Filippini-etal-2016-381}
+\citation{Hank-etal-2010-2034,Li-2014-169,Zoppou-etal-2017}
+\citation{Hank-etal-2010-2034,Zoppou-etal-2017}
+\citation{Pitt-2018-61}
+\citation{Zoppou-etal-2017}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Finite Element Volume Method}{27}{chapter.3}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chp:HFVMMethod}{{3}{27}{Finite Element Volume Method}{chapter.3}{}}
+\citation{Hank-etal-2010-2034}
+\citation{Zoppou-etal-2017}
+\citation{Pitt-J-2014}
+\citation{El-etal-2006}
+\citation{Zoppou-etal-2017,Pitt-2018-61}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Notation for Numerical Grids}{28}{section.3.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagram of the time levels $t^{n-1}$, $t^n$ and $t^{n+1}$ at which the numerical solution of the Serre equations will be calculated. Also shown is the $j^{th}$ cell with midpoint $x_{j}$ spanning $x_{j-1/2}$ to $x_{j+1/2}$ which is a volume of the FVM and an element of the FEM.\relax }}{29}{figure.caption.11}}
+\newlabel{fig:NumericalGrid}{{3.1}{29}{Diagram of the time levels $t^{n-1}$, $t^n$ and $t^{n+1}$ at which the numerical solution of the Serre equations will be calculated. Also shown is the $j^{th}$ cell with midpoint $x_{j}$ spanning $x_{j-1/2}$ to $x_{j+1/2}$ which is a volume of the FVM and an element of the FEM.\relax }{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Structure Overview}{29}{section.3.2}}
+\newlabel{sec:StructOverview}{{3.2}{29}{Structure Overview}{section.3.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces The locations of the reconstructions for $h$, $w$, $G$ (\circlet  {blue}) and $b$ (\crosst  {red}) inside the $j^{th}$ cell.\relax }}{30}{figure.caption.12}}
+\newlabel{fig:ReconLocs}{{3.2}{30}{The locations of the reconstructions for $h$, $w$, $G$ (\circlet {blue}) and $b$ (\crosst {red}) inside the $j^{th}$ cell.\relax }{figure.caption.12}{}}
+\citation{Preneter-1975,atkinson-1978}
+\citation{Roe-1986-337}
+\citation{VanLeer-1977-276}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Reconstruction}{32}{subsection.3.2.1}}
+\newlabel{subsec:Reconstruction}{{3.2.1}{32}{Reconstruction}{subsection.3.2.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Reconstruction of the $h$, $w$ and $G$}{32}{section*.13}}
+\newlabel{eqn:ReconforhwG}{{3.1}{32}{Reconstruction of the $h$, $w$ and $G$}{equation.3.2.1c}{}}
+\newlabel{eqn:slopehGrecon}{{3.2}{32}{Reconstruction of the $h$, $w$ and $G$}{equation.3.2.2}{}}
+\citation{Harten-1983-357}
+\citation{ANUGA}
+\citation{Davis-Rabinowitz-1984}
+\@writefile{toc}{\contentsline {subsubsection}{Reconstruction of the Bed Profile}{33}{section*.14}}
+\newlabel{eqn:cubicforbedrecon}{{3.2.1}{33}{Reconstruction of the Bed Profile}{section*.14}{}}
+\newlabel{eqn:BedReconDef}{{3.4}{34}{Reconstruction of the Bed Profile}{equation.3.2.4d}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Fluid Velocity}{34}{subsection.3.2.2}}
+\newlabel{subsec:FluidVelocity}{{3.2.2}{34}{Fluid Velocity}{subsection.3.2.2}{}}
+\newlabel{eqn:WeakFormDomain}{{3.5}{34}{Fluid Velocity}{equation.3.2.5}{}}
+\newlabel{eq:elementwiseint}{{3.6}{35}{Fluid Velocity}{equation.3.2.6}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Basis Function Approximations}{35}{section*.15}}
+\newlabel{eqn:FEapproxtohG}{{3.7}{35}{Basis Function Approximations}{equation.3.2.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Support of the discontinuous linear basis functions $\psi $ which are non-zero over the $j^{th}$ cell.\relax }}{36}{figure.caption.16}}
+\newlabel{fig:P1DiscBasis}{{3.3}{36}{Support of the discontinuous linear basis functions $\psi $ which are non-zero over the $j^{th}$ cell.\relax }{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Support of the continuous piecewise quadratic basis functions $\phi $ which are non-zero over the $j^{th}$ cell.\relax }}{36}{figure.caption.17}}
+\newlabel{fig:P2ContBasis}{{3.4}{36}{Support of the continuous piecewise quadratic basis functions $\phi $ which are non-zero over the $j^{th}$ cell.\relax }{figure.caption.17}{}}
+\newlabel{eqn:FEapproxtou}{{3.8}{36}{Basis Function Approximations}{equation.3.2.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Support of the continuous piecewise cubic basis functions $\gamma $ which are non-zero over the $j^{th}$ cell.\relax }}{37}{figure.caption.18}}
+\newlabel{fig:P3ContBasis}{{3.5}{37}{Support of the continuous piecewise cubic basis functions $\gamma $ which are non-zero over the $j^{th}$ cell.\relax }{figure.caption.18}{}}
+\newlabel{eqn:FEapproxtob}{{3.9}{37}{Basis Function Approximations}{equation.3.2.9}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Calculation of Elementwise Matrices}{37}{section*.19}}
+\newlabel{eqn:WeakFormElemXspace}{{3.10}{37}{Calculation of Elementwise Matrices}{equation.3.2.10}{}}
+\citation{NumRecC-1996}
+\citation{Kurganov-etal-2001-707}
+\citation{Kurganov-etal-2001-707}
+\@writefile{toc}{\contentsline {subsubsection}{Assembly of the Global Matrix}{39}{section*.20}}
+\newlabel{eqn:FEMElemMatrixJ}{{3.11}{39}{Assembly of the Global Matrix}{equation.3.2.11}{}}
+\newlabel{eqn:usolvefromGhb}{{3.12}{39}{Assembly of the Global Matrix}{equation.3.2.12}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Flux Across the Cell Interfaces}{39}{subsection.3.2.3}}
+\newlabel{eqn:HLL_flux}{{3.13}{40}{Flux Across the Cell Interfaces}{equation.3.2.13}{}}
+\newlabel{eqn:WaveSpeedBoundsFluxApprox}{{3.15}{40}{Flux Across the Cell Interfaces}{equation.3.2.15}{}}
+\newlabel{eqn:FluxIrrotNum}{{3.16}{40}{Flux Across the Cell Interfaces}{equation.3.2.16}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Calculation of Derivatives}{40}{section*.21}}
+\newlabel{eqn:Polyforucell}{{3.17}{40}{Calculation of Derivatives}{equation.3.2.17}{}}
+\newlabel{eqn:Polyforbcell}{{3.18}{40}{Calculation of Derivatives}{equation.3.2.18}{}}
+\citation{Klein-etal-2004-2050}
+\citation{Pitt-J-2014}
+\@writefile{toc}{\contentsline {subsubsection}{Well-Balancing Modification to Flux Approximation}{42}{section*.22}}
+\newlabel{eqn:BedReDefWmH}{{3.19}{42}{Well-Balancing Modification to Flux Approximation}{equation.3.2.19}{}}
+\newlabel{eqn:ModifiedHValue}{{3.20}{42}{Well-Balancing Modification to Flux Approximation}{equation.3.2.20b}{}}
+\citation{Klein-etal-2004-2050}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}Source Terms}{43}{subsection.3.2.4}}
+\newlabel{subsec:SourceTerm}{{3.2.4}{43}{Source Terms}{subsection.3.2.4}{}}
+\citation{Gottlieb-etal-2003-89}
+\citation{Courant-etal-1967-215}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.5}Update Cell Averages}{44}{subsection.3.2.5}}
+\newlabel{eqn:UpdateMethod}{{3.21}{44}{Update Cell Averages}{equation.3.2.21}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.6}Second-Order SSP Runge-Kutta Method}{44}{subsection.3.2.6}}
+\newlabel{eqn:SSPRKStep1}{{3.22}{44}{Second-Order SSP Runge-Kutta Method}{equation.3.2.22c}{}}
+\citation{Gustafsson}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}CFL condition}{45}{section.3.3}}
+\newlabel{eqn:CFLcond}{{3.23}{45}{CFL condition}{equation.3.3.23}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Boundary Conditions}{45}{section.3.4}}
+\citation{RICCHIUTO20091071}
+\citation{Kurganov-Petrova-2007-707}
+\citation{RICCHIUTO20091071}
+\citation{Kurganov-Petrova-2007-707}
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}Dry Beds}{46}{section.3.5}}
+\newlabel{sec:DryBeds}{{3.5}{46}{Dry Beds}{section.3.5}{}}
+\citation{Kurganov-Petrova-2007-707}
+\citation{Kurganov-Petrova-2007-707}
+\citation{Zoppou-etal-2017}
+\citation{Conte-DeBoor-1980}
+\citation{NumRecC-1996}
+\newlabel{eqn:calculationofugivenuhandh}{{3.25}{47}{Dry Beds}{equation.3.5.25}{}}
+\newlabel{eqn:hdrytransform}{{3.27}{47}{Dry Beds}{equation.3.5.27b}{}}
+\citation{NumRecC-1996}
+\@setckpt{chp3/chapter}{
+\setcounter{page}{49}
+\setcounter{equation}{27}
+\setcounter{enumi}{6}
+\setcounter{enumii}{0}
+\setcounter{enumiii}{0}
+\setcounter{enumiv}{0}
+\setcounter{footnote}{0}
+\setcounter{mpfootnote}{0}
+\setcounter{part}{0}
+\setcounter{chapter}{3}
+\setcounter{section}{5}
+\setcounter{subsection}{0}
+\setcounter{subsubsection}{0}
+\setcounter{paragraph}{0}
+\setcounter{subparagraph}{0}
+\setcounter{figure}{5}
+\setcounter{table}{0}
+\setcounter{parentequation}{27}
+\setcounter{ContinuedFloat}{0}
+\setcounter{subfigure}{0}
+\setcounter{subtable}{0}
+\setcounter{Item}{6}
+\setcounter{Hfootnote}{0}
+\setcounter{bookmark@seq@number}{28}
+\setcounter{NAT@ctr}{0}
+\setcounter{theorem}{1}
+\setcounter{conj}{0}
+\setcounter{section@level}{1}
+}

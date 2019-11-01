@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: MODSIM2017_paper.aux
+The style file: chicago.bst
+Database file #1: DamBreak.bib
+I was expecting a `,' or a `}'---line 1049 of file DamBreak.bib
+ :     
+ :     NOTE        = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--string name "springer" is undefined
+--line 1277 of file DamBreak.bib
+Warning--no number and no volume in Pitt-2017
+Warning--page numbers missing in Pitt-2017
+Warning--empty publisher in Sorenson-2006
+You've used 9 entries,
+            2861 wiz_defined-function locations,
+            678 strings with 6581 characters,
+and the built_in function-call counts, 6409 in all, are:
+= -- 496
+> -- 538
+< -- 1
++ -- 162
+- -- 172
+* -- 633
+:= -- 1190
+add.period$ -- 27
+call.type$ -- 9
+change.case$ -- 70
+chr.to.int$ -- 9
+cite$ -- 12
+duplicate$ -- 157
+empty$ -- 361
+format.name$ -- 200
+if$ -- 1184
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 9
+newline$ -- 48
+num.names$ -- 90
+pop$ -- 49
+preamble$ -- 1
+purify$ -- 125
+quote$ -- 0
+skip$ -- 160
+stack$ -- 0
+substring$ -- 290
+swap$ -- 49
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 170
+warning$ -- 3
+while$ -- 72
+width$ -- 0
+write$ -- 120
+(There was 1 error message)

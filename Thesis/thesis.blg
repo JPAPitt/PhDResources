@@ -1,0 +1,70 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+The style file: unsrtnat.bst
+A level-1 auxiliary file: titlepage.aux
+A level-1 auxiliary file: dedication.aux
+A level-1 auxiliary file: declaration.aux
+A level-1 auxiliary file: acknowledgements.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: chp1/chapter.aux
+A level-1 auxiliary file: chp2/chapter.aux
+A level-1 auxiliary file: chp3/chapter.aux
+A level-1 auxiliary file: chp4/chapter.aux
+A level-1 auxiliary file: chp5/chapter.aux
+A level-1 auxiliary file: chp6/chapter.aux
+A level-1 auxiliary file: chp7/chapter.aux
+A level-1 auxiliary file: app3/appendix.aux
+A level-1 auxiliary file: app1/appendix.aux
+A level-1 auxiliary file: app2/appendix.aux
+A level-1 auxiliary file: app4/appendix.aux
+Database file #1: bibliography.bib
+Warning--entry type for "ClawPack" isn't style-file defined
+--line 1643 of file bibliography.bib
+Warning--entry type for "Comcot" isn't style-file defined
+--line 1659 of file bibliography.bib
+Warning--entry type for "ANUGA" isn't style-file defined
+--line 1675 of file bibliography.bib
+Warning--empty title in stokes1845gg
+You've used 71 entries,
+            2481 wiz_defined-function locations,
+            1049 strings with 17107 characters,
+and the built_in function-call counts, 25740 in all, are:
+= -- 2182
+> -- 1115
+< -- 50
++ -- 460
+- -- 318
+* -- 1963
+:= -- 4090
+add.period$ -- 218
+call.type$ -- 71
+change.case$ -- 133
+chr.to.int$ -- 71
+cite$ -- 72
+duplicate$ -- 1351
+empty$ -- 2528
+format.name$ -- 425
+if$ -- 5564
+int.to.chr$ -- 1
+int.to.str$ -- 72
+missing$ -- 76
+newline$ -- 362
+num.names$ -- 215
+pop$ -- 548
+preamble$ -- 1
+purify$ -- 71
+quote$ -- 0
+skip$ -- 785
+stack$ -- 0
+substring$ -- 1224
+swap$ -- 165
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 464
+warning$ -- 1
+while$ -- 199
+width$ -- 0
+write$ -- 940
+(There were 4 warnings)
