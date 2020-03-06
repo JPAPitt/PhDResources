@@ -1,0 +1,225 @@
+\documentclass[subeqn]{article}
+\usepackage[dvips]{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{epstopdf}
+\usepackage{topcapt}
+%\usepackage{citeref}
+\usepackage{color}
+%\usepackage{sgr-colors}
+\usepackage{lscape}
+\usepackage{xcolor}
+%\usepackage{soul}
+\usepackage{mathrsfs}
+%\usepackage{turnstile}
+%\usepackage{stmaryrd}
+
+\newcommand{\UV}{\mbox{\boldmath$U$}}
+\newcommand{\VV}{\mbox{\boldmath$V$}}
+\newcommand{\FV}{\mbox{\boldmath$F$}}
+\newcommand{\SV}{\mbox{\boldmath$S$}}
+\newcommand{\WV}{\mbox{\boldmath$W$}}
+\newcommand{\CV}{\mbox{\boldmath$C$}}
+\newcommand{\SVhat}{\hat{\SV}}
+\newcommand{\R}{{\mathbb{R}}}
+
+\newcommand{\comment}[1]
+    {\par\colorbox{LGray}{\parbox{\linewidth}{\bf Comment: #1}}}
+
+\definecolor{lightblue}{rgb}{.7,.9,1}
+\definecolor{lightyellow}{rgb}{1,1,0}
+\definecolor{lightred}{rgb}{1,0,0.1}
+
+\newcommand{\hlb}[1] {\par\colorbox{lightblue}{\parbox{\linewidth}{#1}}}
+\newcommand{\hly}[1] {\par\colorbox{lightyellow}{\parbox{\linewidth}{#1}}}
+\newcommand{\hlr}[1] {\par\colorbox{lightred}{\parbox{\linewidth}{#1}}}
+
+%\newcommand{\hlb}[1] {{#1}}
+%\newcommand{\hly}[1] {{#1}}
+%\newcommand{\hlr}[1] {{#1}}
+
+\begin{document}
+
+\begin{center}
+\begin{large}
+Response to Reviewer's Comments
+\end{large}
+\end{center}
+
+The reviewers of our paper have provided some useful suggestion. We note that the two reviewer's have suggested that there are minor revisions required to the paper. We have answered the reviewers comments in the following and were applicable have enhanced the paper in view of their suggestions.
+
+\emph{We have made a slight change to the Abstract with the following}
+\hlb{Since there is no analytical solution to the Serre equation that involves bathymetry, a forced solution, involving bathymetry was developed.}
+
+\section*{Referee(s)' Comments to Author:}
+
+\subsection*{Reviewer: 1}
+
+Comments to the Author
+The manuscript a new method Finite Difference Volume Method to solve the fully non-linear Serre equations. The method is well described and the results are generally good to validate the usefulness of the method. One major concern to the reviewer is the advantage of such new method compare to others. So the reviewer would suggest a minor revision before publication.
+
+Major concern:
+One advance of this manuscript is to propose a new Finite Element Volume Method (FEVM) extension of the Finite Difference Volume Methods (FDVM), when a finite element method is used to solve the auxiliary elliptic equation. I would suggest the author to compare the accuracy of both methods in order to convince the readers this is a better method. Since Finite difference method is a special case of finite element method by taking the test function to be a dirac delta function.
+
+\emph{We have added the following as a justification for the development of a FEVM compared to a FDVM.}
+\hlb{The second-order finite-difference-finite volume method(FDVM) described in Zoppou \emph{et al.}\cite{Zoppou-etal-2017} and the current finite-element finite-volume  (FEVM) were compared by Pitt \cite{Pitt-2019}. Both schemes only differ in the solution scheme used to solve the elliptic equation. In the FDVM the eliptic equations were solved using a second-order finite difference scheme.
+
+Linear analysis of the schemes showed that the FDVM had slightly better convergence, conservation and dispersion properties than the FEVM. The differences were only slight. The FDVM and FEVM were also compared using experimental data to demonstrate their modelling capabilities across a wide range of physical problems. This included data from Benji and Battjes\cite{Benji-Battjes-1994-1} and Roeber\cite{Roeber-2010}. The experimental comparison results established the superior robustness of the FEVM over the FDVM, which was found to be unstable for a solitary wave over a fringing reef experiment of Roeber\cite{Roeber-2010}. Due to this result and its potential to be extended to unstructured meshes, the FEVM is a more appropriate choice for solving practical problems and for the development of a two-dimensional Serre equation solver.}
+\hly{Comment on the difference in cost and the extra cost compared with the SWWE solver. Due to the additional solution of the second-order elliptic equation, the scheme is approximately 60\% more computationally expensive than solving the shallow water wave equations\cite{Zoppou-etal-2014}.}
+%
+%\hlb{
+%\subsubsection{Propagation Speed}
+%The linearised Serre equations, with horizontal bed, reveal that the Serre equations are neither hyperbolic nor parabolic. However, a frequency analysis of the linearised Serre equations reveals that the phase speed is given by\cite{Zoppou-etal-2017}
+%\[
+%u_p = u_0 \pm \sqrt{gh_0} \sqrt{\dfrac{1}{\mu^2 + 3}}
+%\]
+%where $\mu = h_0 k$ and $k$ is the wave number. As $\mu \rightarrow 0$, $u_p \rightarrow u_0 \pm \sqrt{gh_0}$, which is the phase speed of shallow water waves. When $\mu \rightarrow \infty$, $u_p \rightarrow u_0$. Therefore, the phase speed for the Serre equations are bounded
+%\[
+%u_0 - \sqrt{gh_0} \le u_0 \pm \sqrt{gh_0} \sqrt{\dfrac{1}{\mu^2 + 3}} \le u_0 + \sqrt{gh_0}.
+%\]
+%}
+
+Minor concern:
+1. What are the assumptions of this form of Serre equations in (1)-(2)? Where is applicable? Any difference compare to “On the fully-nonlinear shallow-water generalized Serre equations”, Frédéric Dias, Paul A. MilewskiPublished 2010 DOI:10.1016/j.physleta.2009.12.043?
+
+\emph{We have added the following to provide at he domain of applicability of the Serre equations.}
+\hlb{In this shallow water region the shallowness parameter, $\sigma = h/l \ll 1$.}
+
+\hlb{They  retain all terms up to order $\sigma^3$ in the momentum equation and the continuity equation is exact. In addition, there is no restriction on the free surface wave amplitude, which is characterised by the dimensionless non-linearity parameter, $\epsilon = a/h$, where $a$ is a typical wave amplitude.
+
+Since $\epsilon = O(1)$ and $\sigma \ll 1$, the Serre equations are fully non-linear weakly dispersive and}
+
+\emph{Our Serre equations are identical to that given by Dias and Milewski\cite{Dias-Milewski-2010-1049}, with the omission of the surface tension, $B = 0$ and $\alpha = 1$. The value $\alpha = 1$ is special since it also corresponds to the equations written for the depth average velocity or the vertical mean of the horizontal velocity. In this case the continuity equation is exact. For other values of $\alpha \ne 1$ the continuity equation is not exact. The regularised Serre equations are not the topic of this paper. The approach described in this paper and in our previous paper is currently being used to solve the generalized shallow water and Serre equations described in \cite{Clamond-Dutykh-2018-237,Dias-Milewski-2010-1049,Dutykh-etal-2018-371}. These equations are readily accommodated by our numerical scheme. We feel that it would be premature at this stage to suggest that the approach that is described in this paper is also applicable to these equations.}
+
+2. What is the physical meaning of the conserved quantity G? What is the relationship between G and the energy H? Why in Line 21, the conserved quantities Q = [h, G]? Then in Figure 5, the conservation error are (h, uh, G, H)? Since both momentum uh and energy H is conserved, should there be conservation of momentum and energy equation? Why they are not used?
+
+\emph{The conserved quantity $G/h$ is the tangential velocity at the free surface. Therefore, $G$ can be considered as the tangential momentum at the free surface. As such it is not related to the energy density, $H$. They are independent quantities. There are four ``obvious'' conserved quantities, $h$, $uh$, $G$ and $H$. Since we have only two unknowns, $h$ and $u$, we have a choice of equations that we can use. For discontinuous problems, $H$ is not conserved. Therefore, we have chosen the conservation laws involving $h$ and $G$ to solve for $h$ and $u$.}
+
+\emph{The Serre equations written in terms of $h$ and momentum, $uh$  and the physical interpretation of $G$ has been added to the paper:}
+\hlb{
+\begin{subequations}
+	\begin{align*}
+	&\frac{\partial h}{\partial t} + \dfrac{\partial (uh)}{\partial x} = 0,  \label{eqn:FullSerreNonConMass} \\ \nonumber \\
+	&\dfrac{\partial (uh)}{\partial t} + \dfrac{\partial}{\partial x} \left ( u^2h + \dfrac{gh^2}{2} + \dfrac{h^2}{2}{\Psi} + \dfrac{h^3}{3}{ \Phi }  \right )  +  \dfrac{\partial b}{\partial x} \left (gh +   h \Psi + \dfrac{h^2}{2}{ \Phi }  \right ) = 0.	%\label{eqn:FullSerreNonConMome}
+	\end{align*}
+%	\label{eqn:FullSerreNonCon}
+\end{subequations}
+where
+\begin{subequations}
+	\begin{align*}
+	{ \Psi }  &= \dfrac{\partial b}{\partial x}\left(\dfrac{\partial u}{\partial t} + u\dfrac{\partial u}{\partial x} \right)  + u^2\dfrac{\partial^2 b}{\partial x^2}, %\label{eqn:SerreeqnPsi}
+	\\ \nonumber \\
+	{ \Phi }  &= \dfrac{\partial u }{\partial x} \dfrac{\partial u}{\partial x} -u \dfrac{\partial^2 u}{\partial x^2}  - \dfrac{\partial^2 u}{\partial x \partial t},  %\label{eqn:SerreeqnPhi}
+	\end{align*}
+%	\label{eqn:FullSerreNonConVarDef}
+\end{subequations}
+$h$ and $uh$  are the conservative variables and $u$ the primitive variable. These equations represent the continuity equation and the momentum equation with a source term.
+
+A major difficulty with solving the Serre equations is that the dispersive terms contain a mixed spatial-temporal derivative term which is difficult to handle numerically. This mixed derivative term can be rewritten  so that the Serre equations can be expressed in conservation law form, with the water depth and a new quantity as conservative variables.
+
+Zoppou \cite{Zoppou-2017-70} showed how the mixed derivative terms generated by $\Psi$ and $\Phi$ can be eliminated by introducing a new conservative variable, $G$. The Serre equations can be expressed as}
+
+\hlb{The quantity $G/h$ has a physical interpretation. It is an approximation of the tangential velocity at the free surface\cite{Clamond-Dutykh-2018-237}}
+
+3. The section “description of numerical method” should discuss about the boundary conditions. Also, how does the boundary condition affect the reconstruction?
+
+\hly{Boundary Conditions: check with Jordan but I think $u=0$ far enough away from the region of interest.}
+
+4. Is it possible to compare to an analytic solution as in JSA do Carmo (2013), or Thacker (1981)?
+“Extended Serre Equations for Applications in Intermediate Water Depths”, The Open Ocean Engineering Journal.
+“Some exact solutions to the nonlinear shallow-water wave equations”, Journal of Fluid Mechanics.
+
+\emph{The analytical solution used in do Carmo\cite{doCarmo-2013-16} is the only analytical solution to the Serre equation. It is a solitary wave that propagates at constant speed without deforming. It has been use by Zoppou \emph{et al.;} \cite{Zoppou-etal-2016,Zoppou-etal-2017} and Pitt\cite{Pitt-2019} to validate the FDVM and FEVM and therefore, has been published previously.}
+
+\emph{The solutions by Thacker\cite{Thacker-W-81-499} for one-dimensional flow in a canal with a parabolic bed were derived for the shallow water wave equations with Coriolis. The analytical solutions have a water surface that remains a plane and oscillates backward and forwards in the canal. The shallow water wave equations assumes that the horizontal velocity, $u$ is constant over the depth and there is no vertical velocity of the fluid particles. The Serre equations assumes that there is a linear variation in the vertical velocity of the particles, zero at the bed and a maximum at the water surface. This vertical velocity introduces dispersive terms in the equations. These would have to vanish in the Serre equation for it to produce a planar water surface. Therefore, Thacker's analytical solution cannot be used to validate the Serre solver.}
+
+5. since the dry bed handling in equation (24) modified depth h, will it affect the well-balanced condition?
+\emph{The well balancing validation includes equation (24). The modification of $h$ still results in a well-balanced scheme.}
+
+6. In Figure 5, the numerical error decrease with increasing element size, which is weird. If should be like Figure 8. If Figure 5 is due to accumulation of round-off error, why is not shown in Figure 8. The author should explore more on it.
+
+\hly{I said that this would come back and bite us. Check with Jordan that this is due accumulation of round off error.}
+
+\subsection*{Reviewer: 2}
+
+Comments to the Author
+In the present work the authors present a numerical method for solving the well-known Serre equations. This class of equations can be used to model flows over dry bathymetry. Both finite volume (FV) and finite element (EF) methods are used to solve the conservation law for the Serre equations and the auxiliary elliptic equation for the depth-averaged horizontal velocity. To demonstrate the performance of the proposed techniques results for several test problems are presented. The paper is reasonably well organized and can be accepted for publication in International Journal for Numerical Methods in Fluids after the following major revisions:
+
+1. The author should investigate the hyperbolicity of the system (1) and eigenvalues of the system should be given at least for the case with flat bed (b = cte).
+
+\emph{The equations are not hyperbolic nor parabolic. We have add the following to show the phase speed of the Serre equations.}
+
+\hlb{For the linearised Serre equations, with horizontal bed, the phase speed is given by\cite{Zoppou-etal-2014}
+\[
+u_p = u \pm \sqrt{gh} \sqrt{\dfrac{3}{\mu^2 + 3}}
+\]
+where $\mu = h k$ and $k$ is the wave number. As $\mu \rightarrow 0$, $u_p \rightarrow u \pm \sqrt{gh}$, which is the phase speed of shallow water waves. When $\mu \rightarrow \infty$, $u_p \rightarrow u$. Therefore, the phase speed for the Serre equations are bounded
+\[
+u - \sqrt{gh} \le u \pm \sqrt{gh} \sqrt{\dfrac{3}{\mu^2 + 3}} \le u + \sqrt{gh}
+\]
+}
+2. The reconstruction of fluxes in (4) uses eigenvalues of the standard shallow water equations in the calculation of characteristic speeds (5). This would introduce numerical diffusion in the reconstruction. How the authors justify this choice in their approach?
+
+\emph{The above paragraph partially addresses this issue. The approximate Riemann solver only requires estimates of the maximum and minimum wave speeds. It does not require that the eigenvalues of the problem are known explicitly. It is an advantage of this Riemann solver. Excessive numerical diffusion would be a problem with other approximate Riemann solvers.}
+
+3. It is not clear how the terms $G^\pm$ are reconstruction in (7). The word "interpolation over neighbouring cell" in page 5 is vague.
+
+\emph{The reconstruction of $G^\pm$ in (7) of the original paper is described in detail in Section 3.2.1 of the original paper. It is the same as for $h^\pm$. These are also shown in Figure 2. Section 3.2 in the original paper has been changed to explicitly state what is being interpolated.}
+
+4. The reconstructions presented in sections are only first-order accurate. How this can be extended to second-order accuracy?
+
+\emph{In the reconstruction step, piecewise linear functions are used for $h$ and $G$. In the finite volume method, piece-wise \textbf{constant} reconstruction results in a first-order scheme. Piece-wise \textbf{linear} interpolation leads to a second-order scheme. The scheme described in the paper is second-order accurate. All reconstructions and function evaluations in the paper are consistent with achieving second-order accuracy. We have added the following in the paper.}
+\hlb{Linear reconstruction is sufficient to produce a second-order scheme.}
+
+5. The selection of time steps in the proposed approach is not fully clear. The authors should clarify how time steps are selected in their results.
+
+\emph{The time step is selected using (equation (21) in the original paper)
+\[
+\Delta t \le \dfrac{Cr}{\max}_j {a^\pm_{j+1/2}} \Delta x.
+\]
+Once $\Delta x$ has been chosen and $a^\pm_{j+1/2}$ has been estimated, the calculation of $\Delta t$ is straightforward. The remaining parameter $0 \le Cr \le 1$ is the numerical Courant number. It is usual chosen  to be less than $1$. In our numerical scheme we have chosen $Cr = 0.5$ to ensure that the scheme remains stable.}
+
+6. It is really not clear for me why coupling FV and FE is required in this class of problems? Authors should justify this option by comparing their results to those obtained using FV method only in both sets of equations.
+
+\hly{An elliptic equation is solved to obtain the primitive variable, $u$. The Finite Volume method we use is specifically designed to solve conservation laws that contain discontinuities.  
+The elliptic equation for $u$ has discontinuous coefficients (given by $h$ and $G$), and we needed a smooth representation of $u$ (we needed to be able to accurately calculate higher spatial derivatives of $u$). A standard FEM with $P_2$ elements satisfies these requirements. 
+Using a FVM for the elliptic reconstruction would lead to a complicated and less accurate calculation of the higher derivative term of $u$, and so was not investigated. }
+
+7. The results presented in section 4 lacks comparison to other well-established methods in the fields. Computational costs required for the obtained results are also missing in the present study.
+
+\emph{The paper demonstrates the use of forced solution to test a new numerical scheme for solving the Serre equations involving the wetting and drying bed. This is the first attempt to verify the accuracy and convergence rate of a numerical scheme for this problem. The forced solution is a surrogate for an analytical solution. Comparing our scheme to other numerical schemes would not add to the validation of our scheme using forced solutions.   In addition, there are   very few if any schemes to our knowledge that solve the Serre equations with a wetting and drying bed. Finally, in Pitt\cite{Pitt-2018-61}, there is a comparison between first, second and third-order FDVM, two second-order finite difference and the second-order FEVM. His conclusion was that the extra computational effort required by the third-order FDVM scheme was not justified for the slight improvement in accuracy compared to the second-order FDVM and FEVM. These schemes were far superior to the second-order finite difference scheme.
+Computational costs have been discussed above.}
+
+
+%--------------------------------------------------------------------------------
+\begin{thebibliography}{99}
+%--------------------------------------------------------------------------------
+
+\bibitem{Beji-Battjes-1994-1} Beji,~S. and Battjes,~J.A., Numerical Simulation of Nonlinear Wave Propagation Over a Bar,
+\emph{Coastal Engineering} \textbf{23}(1), 1-16, 1994.
+
+\bibitem{Clamond-Dutykh-2018-237} Clamond,~D. and D.~Dutykh, Non-dispersive conservative regularisation of nonlinear shallow water (and isentropic Euler equations), Communications in Nonlinear Science and Numerical Simulation, 55(44), 237-247.
+
+\bibitem{doCarmo-2013-16} do~Carmo,~J.S.A., Extended Serre equations for applications in intermediate water depths, \emph{The Open Ocean Engineering Journal}, \textbf{6}, 16-25, 2013.
+
+\bibitem{Dias-Milewski-2010-1049} On the fully-nonlinear shallow-water generalized Serre equations, \emph{Physics Letters A}. \textbf{374}, 1049-1053, 2010.
+
+\bibitem{Dutykh-etal-2018-371} Dutykh,~D., Hoefer,~M. and Mitsotakis,~D., Solitary wave solutions and their interactions for fully nonlinear water waves with surface tension in the generalised Serre equations, \emph{Theoretical and Computational Fluid Dynamics}, \textbf{32}(3), 371-397.
+
+\bibitem{Dutykh-etal-2010-799} Dutykh,~D. and Mitsotakis,~D., On the relevance of the dam break problem in the context of nonlinear shallow water equations, \emph{Discrete and Continuous Dynamical Systems, Series B}, \textbf{13}(4), 799-818, 2010.
+
+\bibitem{Pitt-2019} Pitt,~J.P.A., Simulation of Rapidly Varying and Dry Bed Flow using the Serre equations solved by a Finite Element Volume Method, Ph.D. Thesis, Mathematical Sciences Institute, The Australian National University, 2019.
+
+\bibitem{Pitt-2018-61} Pitt,~J.P.A., Zoppou,~C. and Roberts,~S.G., Behaviour of the Serre equations in the presence of steep gradients revisited, \emph{Wave Motion}, \textbf{76}(1), 61-77, 2018.
+
+\bibitem{Roeber-2010} Roeber,~V., Boussinesq-type mode for nearshore wave processes in fringing reef environment, Ph.D Thesis,  \emph{Department of Ocean and Resource Engineering, University of Hawaii}, 2010.
+
+\bibitem{Thacker-W-81-499}   \textsc{Thacker,~W.C.}, Some exact solutions to the nonlinear shallow-water wave equation, \emph{Journal of Fluid Mechanics}, \textbf{107}, 499-508, 1981.
+
+\bibitem{Zoppou-2014} Zoppou,~C., Numerical Solution of the One-dimensional and Cylindrical Serre Equations for Rapidly Varying Free Surface Flows, Ph.D. Thesis, Mathematical Sciences Institute, The Australian National University, 2014.
+
+\bibitem{Zoppou-etal-2017} Zoppou,~C., Pitt,~J.P.A. and Roberts,~S.G., Numerical solution of the fully non-linear weakly dispersive Serre equations for steep gradient flows, \emph{Applied mathematical Modelling}, \textbf{48}, 70-95, 2017.
+
+\end{thebibliography}
+
+\end{document} 
